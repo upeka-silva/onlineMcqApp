@@ -1,12 +1,17 @@
-import { useState } from 'react'
-import './App.css'
+
+import AddQuestions from './components/questions/AddQuestions'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-     
+      <AddQuestions/>
+
+
+
+
+
     </>
   )
 }
